@@ -1,0 +1,26 @@
+{
+  "notes": [
+    { "id":1,
+      "title":"Hey You today!",
+      "message":"What I would like to do is to leave behind a sustainable entity of a set of companies that operate in an exemplary manner in terms of ethics, values and continue what our ancestors left behind.",
+      "author":"Mary Martin",
+      "url":"https://legiit-service.s3.amazonaws.com/671d34eaa88d092cf472115036af2fcb/25cb2244ad33a7ad4a329f1d4924d12a.jpg"
+    },
+    {
+      "id":2,
+      "title":"Evil Beliefs?",
+      "message":"People still believe what they read is necessarily the truth.",
+      "author":"Oscar Wilder",
+      "url":"https://intentionalinsights.org/wp-content/uploads/2017/04/eaacd68223330502aa0a0bebac1210062.jpg"
+
+    },
+    {
+      "id":3,
+      "title":"Mad Wolrd",
+      "message":"All truth passes through three stages. First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.",
+      "author":"MaD WorlD Foundation",
+      "url":"https://cdn.xxl.thumbs.canstockphoto.com/truth-picture-of-a-word-truth-with-question-marks-stock-photography_csp7559390.jpg"
+      
+    }
+   ]
+}
