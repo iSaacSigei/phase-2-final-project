@@ -10,15 +10,16 @@ function NavBar({ setIsLoggedIn }) {
 
   const linkStyles = {
     width: "150px",
-    height:"30px",
-    paddingTop: "10px",
-    borderRadius:"8px",
-    padding:"2px",
-    alignItems:"center",
+    height: "40px",
+    paddingTop: "14px",
+    borderRadius: "8px",
+    padding: "2px",
+    alignItems: "center",
     margin: "0 6px 6px",
     background: "blue",
     textDecoration: "none",
     color: "white",
+    fontSize: "22px",
   };
 
   return (
@@ -34,14 +35,14 @@ function NavBar({ setIsLoggedIn }) {
         Home
       </NavLink>
       <NavLink
-        to="/about"
+        to="/notes"
         exact
         style={linkStyles}
         activeStyle={{
           background: "darkblue",
         }}
       >
-        About
+        Notes
       </NavLink>
       <NavLink
         to="/login"
