@@ -1,9 +1,10 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 
-function Home({ isLoggedIn, notes }) {
-  console.log(notes);
-  const noteCard = notes.map((note) => (
+function Home({ isLoggedIn, notes, search }) {
+  const filteredNotes = notes.filter((eachNote) =>
+    eachNote.message.toLowerCase().includes(search.toLowerCase())
+  ).map((note) => (
     <>
       <div className="imgContainer">
         <img src={note.url} alt="Oops" />
@@ -15,7 +16,7 @@ function Home({ isLoggedIn, notes }) {
   ));
   if (!isLoggedIn) return <Redirect to="/login" />;
 
-  return <div className="imageCard">{noteCard}</div>;
+  return <div className="imageCard">{filteredNotes}</div>;
 }
 
 export default Home;
