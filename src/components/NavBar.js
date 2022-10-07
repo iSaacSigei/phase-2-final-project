@@ -1,11 +1,15 @@
 import React from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import { Link, NavLink, useHistory } from "react-router-dom";
 
-function NavBar({ setIsLoggedIn }) {
+function NavBar({ setIsLoggedIn,setSearch }) {
   const history = useHistory();
   function handleLogout() {
     setIsLoggedIn(false);
     history.push("/login");
+  }
+  function handleSearch(e){
+    setSearch(e.target.value)
+    
   }
 
   const linkStyles = {
@@ -54,6 +58,7 @@ function NavBar({ setIsLoggedIn }) {
       >
         Login
       </NavLink>
+      <input onChange={handleSearch} type="text" placeholder="search notes"/>
       <button onClick={handleLogout}>Logout</button>
     </div>
   );
