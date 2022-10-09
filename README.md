@@ -1,3 +1,23 @@
+# Phase-2-Projetc. Notes Taking App
+
+##### By Sigei Isack 
+
+## Table of Content
+
++ [Description](#description)
++ [Getting Started with Create React App](#Installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
+
+## Desription
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project allows the user the ability to add notes, view previous notes and delete the unwanted notes.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,6 +59,41 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+[Go Back to the top](#Getting Started with Create React App)
+## Technology Used
+* HTML - which was used to build the structure of the pages.
+
+* CSS - which was used to style the pages incuding the left aside navigation bar
+* React- use to enhance the interectiveness of the webpages
+
+## Reference
+* Materialize CSS
+
+## Licence
+
+MIT License
+
+Copyright (c) 2022 iSaacSigei
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+[Go Back to the top](#portfolio)
+
+## Authors Info
+
+LinkedIn - [Sigei Isack](www.linkedin.com/in/isack-kiplangat-46a756164)
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +123,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors Info
+
+LinkedIn - [Sigei Isack](www.linkedin.com/in/isack-kiplangat-46a756164)
