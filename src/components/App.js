@@ -23,7 +23,18 @@ function App() {
   function handleNewData() {
     setNewData((newData) => !newData);
   }
-
+  function handleDelete(id) {
+    fetch(`http://localhost:3000/notes/${id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then(() => {
+        const updatedNotes = notes.filter(
+          (remainingNotes) => remainingNotes.id !== id
+        );
+        setNotes(updatedNotes);
+      });
+  }
   return (
     <div className="App">
       <NavBar setIsLoggedIn={setIsLoggedIn} setSearch={setSearch} />
@@ -36,7 +47,12 @@ function App() {
           <Login setIsLoggedIn={setIsLoggedIn} />
         </Route>
         <Route exact path="/">
-          <Home isLoggedIn={isLoggedIn} notes={notes} search={search} />
+          <Home
+            isLoggedIn={isLoggedIn}
+            notes={notes}
+            search={search}
+            handleDelete={handleDelete}
+          />
         </Route>
       </Switch>
     </div>
