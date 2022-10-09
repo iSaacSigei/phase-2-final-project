@@ -23,9 +23,20 @@
   color: "white";
 }
 .imageCard {
+  padding-top: 20px;
   height: auto;
+  margin: auto;
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .imageCard {
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain;
+    
+  }
 }
 .imageCard input[type=image]{
   vertical-align: middle;
